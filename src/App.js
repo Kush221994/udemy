@@ -8,7 +8,7 @@ import TeachonUdemy from "./TeachonUdemy";
 import UdemyBusiness from "./UdemyBusiness";
 import Navbar from './Navbar';
 import Background from './Background';
-import image from '../src/Images/Background.jpg';
+import image from '../src/Images/Background.png';
 import Python from './Python';
 import Excel from './Excel';
 import WebDevelopment from './WebDevelopment';

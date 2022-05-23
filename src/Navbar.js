@@ -2,13 +2,15 @@ import React from "react";
 import Logo from "../src/Images/logo udemy.svg";
 import { NavLink } from "react-router-dom";
 import globe from "../src/Images/globe.svg";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            <img src={Logo} alt="Logo" width="50" height="30" />
+            <img src={Logo} alt="Logo" width="50" height="40" />
           </NavLink>
           <button
             className="navbar-toggler"
@@ -59,13 +61,16 @@ const Navbar = () => {
           <form className="d-flex">
             <div className="search">
               <input
-                className="form-control me-2"
+                className="form-controlsearch me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="Search for anything"
                 aria-label="Search"
               />
+              
             </div>
+            
           </form>
+          
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
@@ -87,12 +92,12 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <div className="btn1">
-                <button type="button"  className="btn btn-light">
+                <button type="button"  className="btnlogin">
                   Log In
                 </button>
               </div>
               <div className="btn2">
-                <button type="button" className="btn btn-dark">
+                <button type="button" className="btnsignup btn-dark">
                   Sign Up
                 </button>
               </div>
@@ -100,6 +105,7 @@ const Navbar = () => {
                 {" "}
                 <img src={globe} alt="globe" />{" "}
               </button>
+              <i className= "bi bi-search"></i>
             </ul>
           </div>
         </div>
