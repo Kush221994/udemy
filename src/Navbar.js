@@ -4,10 +4,12 @@ import { NavLink } from "react-router-dom";
 import globe from "../src/Images/globe.svg";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
+import './index.css';
+
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar yo navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <img src={Logo} alt="Logo" width="50" height="40" />
@@ -105,7 +107,7 @@ const Navbar = () => {
                 {" "}
                 <img src={globe} alt="globe" />{" "}
               </button>
-              <i className= "bi bi-search"></i>
+              
             </ul>
           </div>
         </div>

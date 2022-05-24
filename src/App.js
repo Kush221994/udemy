@@ -16,6 +16,14 @@ import JavaScript from './JavaScript';
 import DataScience from './DataScience';
 import AWSCertification from './AWSCertification';
 import Drawing from './Drawing';
+import MachineLearning from './MachineLearning';
+import FinancialAnalysis from './FinancialAnalysis';
+import SQL from './SQL';
+import PMP from './PMP';
+import EthicalHacking from './EthicalHacking';
+import CyberSecurity from './CyberSecurity';
+import Photoshop from './Photoshop';
+import GraphicDesign from './GraphicDesign';
 const App = () => {
   return (
     <>
@@ -33,6 +41,14 @@ const App = () => {
            <Route exact path="/datascience" element={<DataScience name="DataScience"/>} />
            <Route exact path="/awscertification" element={<AWSCertification name="AWSCertification"/>} />
            <Route exact path="/drawing" element={<Drawing name="Drawing"/>} />
+           <Route exact path="/machinelearning" element={<MachineLearning name="Machine Learning"/>} />
+           <Route exact path="/financialanalysis" element={<FinancialAnalysis name="Financial  Analysis"/>} />
+           <Route exact path="/sql" element={<SQL name="SQL"/>} />
+           <Route exact path="/pmp" element={<PMP name="PMP"/>} />
+           <Route exact path="/ethicalhacking" element={<EthicalHacking name="EthicalHacking"/>} />
+           <Route exact path="/cybersecurity" element={<CyberSecurity name="CyberSecurity"/>} />
+           <Route exact path="/photoshop" element={<Photoshop name="Photoshop"/>} />
+           <Route exact path="/graphicdesign" element={<GraphicDesign name="GraphicDesign"/>} />
     </Routes> 
     
   
