@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom";
 import globe from "../src/Images/globe.svg";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
-import './index.css';
+import "./index.css";
+import ButtonContained from "./components/button/contained";
 
 const Navbar = () => {
   return (
@@ -68,11 +69,9 @@ const Navbar = () => {
                 placeholder="Search for anything"
                 aria-label="Search"
               />
-              
             </div>
-            
           </form>
-          
+
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
@@ -94,20 +93,20 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <div className="btn1">
-                <button type="button"  className="btnlogin">
+                <ButtonContained
+                  disabled={true}
+                  onClick={() => alert("Login!")}
+                >
                   Log In
-                </button>
+                </ButtonContained>
               </div>
               <div className="btn2">
-                <button type="button" className="btnsignup btn-dark">
-                  Sign Up
-                </button>
+                <ButtonContained>Sign Up</ButtonContained>
               </div>
               <button>
                 {" "}
                 <img src={globe} alt="globe" />{" "}
               </button>
-              
             </ul>
           </div>
         </div>

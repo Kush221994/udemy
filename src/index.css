@@ -41,7 +41,7 @@ div.cat_des {
   text-align: center;
   font-weight: bold;
 }
-btn1 {
+.btn1 {
   position: relative;
   padding: 0px 2px 0px 2px;
 }
@@ -60,7 +60,7 @@ btn1 {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.btnlogin {
+.btn {
   display: inline-block;
   font-weight: bold;
   line-height: 1.5;
@@ -72,34 +72,20 @@ btn1 {
   -webkit-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 1px solid black;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   border-radius: -0.75rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btnlogin {
+  border: 1px solid black;
   margin-right: 14px;
 }
 
 .btnsignup {
-  display: inline-block;
-  font-weight: bold;
-  line-height: 1.5;
-  color: #212529;
-  text-align: center;
-  text-decoration: none;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: 0.375rem 0.75rem;
-  font-size: 1rem;
-  border-radius: -0.75rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .btn-light {
@@ -116,7 +102,6 @@ btn1 {
   justify-content: space-between;
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
-  
 }
 
 /* .yo {
@@ -206,31 +191,31 @@ btn1 {
   font-weight: bold;
 }
 
-.development{
+.development {
   padding-bottom: 4vh;
   font-size: 3vh;
 }
 
-.business{
-  padding-bottom: 4vh;
-  font-size: 3vh;  
-}
-
-.itandsoft{
+.business {
   padding-bottom: 4vh;
   font-size: 3vh;
 }
 
-.design{
+.itandsoft {
   padding-bottom: 4vh;
   font-size: 3vh;
 }
 
-.padding{
+.design {
+  padding-bottom: 4vh;
+  font-size: 3vh;
+}
+
+.padding {
   padding-top: 4vh;
 }
 
-.box{
+.box {
   padding: 11px;
   width: 14vw;
   height: 6vh;
@@ -244,27 +229,25 @@ btn1 {
   background-color: rgb(170, 166, 166);
 } */
 
-.img1{
+.img1 {
   padding-top: 15vh;
   display: inline-block;
-  
-/* display: block;
+
+  /* display: block;
   margin-right: auto;
   margin-left: auto; */
-  
 }
 
-.img1-des{
+.img1-des {
   background-color: green;
-  display:inline-block;
+  display: inline-block;
   padding-top: 70vh;
   margin-left: -24vw;
   font-size: 3vh;
 }
 
-.i{ 
+.i {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   background-color: aqua;
-  
 }
