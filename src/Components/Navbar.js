@@ -1,10 +1,8 @@
 import React from "react";
-import Logo from "../src/Images/logo udemy.svg";
+import Logo from "../Images/logo udemy.svg";
 import { NavLink } from "react-router-dom";
-import globe from "../src/Images/globe.svg";
-import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
-import './index.css';
+import globe from "../Images/globe.svg";
+import '../index.css';
 
 const Navbar = () => {
   return (
@@ -39,8 +37,10 @@ const Navbar = () => {
               </NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <NavLink className="dropdown-item" to="#">
-                    Action
+                  <NavLink className="dropdown-item" 
+                  aria-current="page"
+                  to="/development">
+                    Development
                   </NavLink>
                 </li>
                 <li>
