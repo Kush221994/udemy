@@ -1,31 +1,29 @@
-
-
-export const PtopicsArr = [
+export const Topics = [
   {
-    name: "Python"
+    name: "Python",
   },
   {
-    name: "Javascript"
+    name: "Javascript",
   },
   {
-    name: "Datascience"
+    name: "Datascience",
   },
   {
-    name: "C#"
+    name: "C#",
   },
   {
-    name: "Machine Learning"
+    name: "Machine Learning",
   },
   {
-    name: "Web Development"
+    name: "Web Development",
   },
   {
-  name: "React"
+    name: "React",
   },
   {
-    name: "Java"
+    name: "Java",
   },
   {
-    name: "Unity"
-  }
+    name: "Unity",
+  },
 ];
