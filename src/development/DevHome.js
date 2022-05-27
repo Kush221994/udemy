@@ -1,8 +1,8 @@
 import React from "react";
 import "../index.css";
 import Slider from "./Slider";
-import PopularTopics from "../development/PopularTopics";
-import PtopicsArr from "../development/PtopicsArr";
+import PopularTopics from "./PopularTopics";
+import { PtopicsArr } from "./PtopicsArr";
 const DevHome = () => {
   return (
     <>
@@ -26,12 +26,12 @@ const DevHome = () => {
         {/* </div> */}
       </div>
       <Slider />
-      {/* <div className="devheading">Popular Topics</div>
+      <div className="devheading">Popular Topics</div>
       {PtopicsArr.map((PtopicsArr, i) => (
         <PopularTopics
           key={i}
          name={PtopicsArr.name}
-        /> */}
+        />
       ))}
     </>
   );
